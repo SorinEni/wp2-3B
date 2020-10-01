@@ -21,11 +21,11 @@
 <?php 
 switch ($switch) {
     case 'eur_czk':
-        $final = $amount * EUR_CZK; 
+        $final = $amount / EUR_CZK; 
         break;
     
     case 'czk_eur':
-        $final = $amount / EUR_CZK; 
+        $final = $amount * EUR_CZK; 
         break;
 
     case 'dol_czk':
